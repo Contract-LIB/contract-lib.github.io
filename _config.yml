@@ -27,7 +27,8 @@ url: "https://contractlib.github.io" # the base hostname & protocol for your sit
 github_username: Contract-LIB
 
 # Build settings
-theme: minima
+#theme: minima
+theme: just-the-docs
 #plugins:
 #  - jekyll-feed
 
@@ -52,4 +53,6 @@ theme: minima
 #   - vendor/ruby/
 
 exclude:
+    - tmp/
+    - vendor/
     - Readme.md
